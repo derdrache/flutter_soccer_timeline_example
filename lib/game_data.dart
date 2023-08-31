@@ -1,3 +1,4 @@
+//very simplified api form
 Map gameData ={
   "gameDate": "01 June 2020 16:00",
   "team1": {"name": "BAR", "endScore": 1, "image": "assets/images/Barcelona.svg.png"},
