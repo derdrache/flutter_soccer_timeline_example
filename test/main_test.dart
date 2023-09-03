@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:football_timeline_flutter/game_data.dart';
+import 'package:soccer_timeline_flutter/game_data.dart';
 
 void main() {
   runApp(const MyApp());
@@ -50,7 +50,6 @@ class MyHomePage extends StatelessWidget {
               ),
               const ScoreBoard(),
               const Expanded(child: TimeLine()),
-              const SizedBox(height: 20)
             ],
           ),
         ),
@@ -200,6 +199,7 @@ class TimeLine extends StatelessWidget {
                 ),
               ],
             ),
+            if(index == gameData["gameHistory"].length -1) SizedBox(height: 20,)
           ],
         );
       },
